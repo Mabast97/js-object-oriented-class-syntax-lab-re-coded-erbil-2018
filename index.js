@@ -24,3 +24,9 @@ class Ceo
     this.homeState = homeState;
   }
 }
+
+
+"Mr. Ceo")
+expect(ceo.homeState).to.equal("South Carolina")
+expect(ceo.training).to.equal("business"
+
