@@ -20,12 +20,13 @@ class Ceo extends BoardMember
   constructor(name, homeState, training)
   {
     this.name = name;
-    this.training = training;
     this.homeState = homeState;
+    this.training = training;
+    
   }
   hireEmployee(){ return "Welcome aboard!"; }
 }
 
 
-ceo = new Ceo("Mr. Ceo", "South Carolina", "business");
+let ceo = new Ceo("Mr. Ceo", "South Carolina", "business");
 
