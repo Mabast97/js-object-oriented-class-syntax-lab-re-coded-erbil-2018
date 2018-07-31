@@ -23,10 +23,11 @@ class Ceo extends BoardMember
     this.training = training;
     this.homeState = homeState;
   }
+  hireEmployee(){ return "Welcome aboard!"; }
 }
 
 
-"Mr. Ceo")
-expect(ceo.homeState).to.equal("South Carolina")
-expect(ceo.training).to.equal("business"
+// "Mr. Ceo")
+// expect(ceo.homeState).to.equal("South Carolina")
+// expect(ceo.training).to.equal("business"
 
