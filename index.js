@@ -17,7 +17,7 @@ class BoardMember
 
 class Ceo extends BoardMember
 {
-  constructor(name, training, homeState)
+  constructor(name, homeState, training)
   {
     this.name = name;
     this.training = training;
@@ -27,7 +27,5 @@ class Ceo extends BoardMember
 }
 
 
-// "Mr. Ceo")
-// expect(ceo.homeState).to.equal("South Carolina")
-// expect(ceo.training).to.equal("business"
+ceo = new Ceo("Mr. Ceo", "South Carolina", "business");
 
