@@ -15,7 +15,7 @@ class BoardMember
   
 }
 
-class Ceo 
+class Ceo extends BoardMember
 {
   constructor(name, training, homeState)
   {
